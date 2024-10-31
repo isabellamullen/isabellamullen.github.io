@@ -3,45 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Isabella Mullen</title>
+    <title>Isabella Mullen's Website</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="sidebar">
-        <div class="profile-picture"></div>
-        <h1 class="name">Isabella Mullen</h1>
-        <nav>
-            <ul>
-                <li><a href="#about" class="sidebar-link">ABOUT</a></li>
-                <li><a href="#research" class="sidebar-link">RESEARCH</a></li>
-                <li><a href="#teaching" class="sidebar-link">TEACHING</a></li>
-                <li><a href="#projects" class="sidebar-link">PROJECTS</a></li>
-            </ul>
-        </nav>
+        <div class="profile-picture">
+            <img src="path/to/your-image.jpg" alt="Isabella Mullen">
+            <h1>Isabella Mullen</h1>
+        </div>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/bellamullen/" target="_blank" class="icon-link">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:imullen@ucsd.edu" class="icon-link">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://github.com/isabellamullen" target="_blank" class="icon-link">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="path/to/CV.pdf" target="_blank" class="icon-link">
+                <i class="fas fa-file-alt"></i>
+            </a>
+        </div>
     </div>
-    <div class="content">
+    <div class="main-content">
+        <div class="header">
+            <a href="#about" class="nav-link">ABOUT</a>
+            <a href="#cv" class="nav-link">CV</a>
+        </div>
         <section id="about">
-            <h2>ABOUT</h2>
-            <h3>CV</h3>
-            <p>Content for the CV subsection...</p>
+            <h2>About</h2>
+            <p>Your about section content here...</p>
         </section>
-        <section id="research">
-            <h2>RESEARCH</h2>
-            <h3>Peer-Reviewed Research</h3>
-            <p>Content for Peer-Reviewed Research...</p>
-            <h3>Working Papers</h3>
-            <p>Content for Working Papers...</p>
-        </section>
-        <section id="teaching">
-            <h2>TEACHING</h2>
-            <h3>Computational Social Science</h3>
-            <p>Content for Computational Social Science...</p>
-            <h3>Political Science</h3>
-            <p>Content for Political Science...</p>
-        </section>
-        <section id="projects">
-            <h2>PROJECTS</h2>
-            <p>Content for the Projects section...</p>
+        <section id="cv">
+            <h2>CV</h2>
+            <p>Your CV section content here...</p>
         </section>
     </div>
 </body>
