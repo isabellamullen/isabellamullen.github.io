@@ -13,11 +13,14 @@ body {
     padding: 20px;
     position: fixed;
     height: 100%;
+    z-index: 1000; /* Ensures it stays on top */
 }
 
 .profile-picture img {
     border-radius: 50%;
     width: 100px;
+    height: 100px;
+    object-fit: cover;
     display: block;
     margin: 0 auto;
 }
@@ -45,7 +48,7 @@ body {
 }
 
 .main-content {
-    margin-left: 250px;
+    margin-left: 270px; /* Adjusted to prevent overlap with the sidebar */
     padding: 20px;
     flex: 1;
 }
@@ -58,6 +61,7 @@ body {
     padding: 10px;
     position: sticky;
     top: 0;
+    z-index: 999; /* Ensures it stays on top of main content */
 }
 
 .nav-link {
@@ -75,11 +79,6 @@ body {
 h2 {
     color: #3A405A; /* Heading color */
     font-weight: 700;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-    color: #B185A7;
 }
 
 section {
