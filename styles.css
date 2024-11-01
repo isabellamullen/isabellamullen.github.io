@@ -35,8 +35,13 @@ body {
 }
 
 .icon-link {
-    color: #F9DEC9;
+    color: #F9DEC9; /* Matches the sidebar's color theme */
     font-size: 1.5em;
+    text-decoration: none;
+}
+
+.icon-link:hover {
+    color: #B185A7; /* Changes color on hover */
 }
 
 .main-content {
