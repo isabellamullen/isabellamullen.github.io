@@ -25,23 +25,19 @@ nav ul li {
     margin: 15px 0;
 }
 
-.icons img {
-    width: 30px;
-    margin: 5px;
-    background-color: #ffffff; 
-    border-radius: 5px; 
-    padding: 5px;
-}
-
 .avatar {
     border-radius: 50%;
     width: 150px;
     margin-bottom: 15px;
 }
 
+/* Ensures white background on icons */
 .icons img {
     width: 30px;
     margin: 5px;
+    background-color: #ffffff; /* Adds a white background */
+    border-radius: 5px; /* Adds slight rounding */
+    padding: 5px; /* Adds padding around the icon */
 }
 
 .main-content {
