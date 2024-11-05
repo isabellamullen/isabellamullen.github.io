@@ -1,84 +1,57 @@
 body {
-    font-family: 'Lato', sans-serif;
-    background-color: #F9DEC9;
-    color: #000000;
-    margin: 0;
     display: flex;
+    margin: 0;
+    font-family: 'Times New Roman', serif;
+    color: black;
+    background-color: #ABC798;
 }
 
 .sidebar {
-    background-color: #3A405A;
-    color: #F9DEC9;
     width: 250px;
+    background-color: #2F4858;
+    color: #F0F4EF;
     padding: 20px;
+    text-align: center;
     position: fixed;
     height: 100%;
-    z-index: 1000; /* Ensures it stays on top */
 }
 
-.profile-picture img {
+.avatar {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    display: block;
-    margin: 0 auto;
+    width: 150px;
+    margin-bottom: 15px;
 }
 
-.profile-picture h1 {
-    text-align: center;
-    font-weight: 300;
-    color: #828E82;
-}
-
-.icons {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-}
-
-.icon-link {
-    color: #F9DEC9; /* Matches the sidebar's color theme */
-    font-size: 1.5em;
-    text-decoration: none;
-}
-
-.icon-link:hover {
-    color: #B185A7; /* Changes color on hover */
+.icons img {
+    width: 30px;
+    margin: 5px;
 }
 
 .main-content {
-    margin-left: 270px; /* Adjusted to prevent overlap with the sidebar */
+    margin-left: 270px;
     padding: 20px;
     flex: 1;
 }
 
-.header {
+header nav {
     display: flex;
-    justify-content: flex-start;
     gap: 20px;
-    background-color: #F9DEC9; /* Matches the background color */
-    padding: 10px;
-    position: sticky;
-    top: 0;
-    z-index: 999; /* Ensures it stays on top of main content */
+    justify-content: flex-start;
 }
 
-.nav-link {
-    color: #3A405A;
+header nav a {
     text-decoration: none;
-    font-weight: 700;
-    font-size: 1.2em;
+    font-weight: bold;
+    color: #4F000B;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-    color: #B185A7; /* Changes color when hovered */
+header nav a:hover, 
+header nav a:focus {
+    color: #D64933;
 }
 
 h2 {
-    color: #3A405A; /* Heading color */
-    font-weight: 700;
+    color: #4F000B;
 }
 
 section {
