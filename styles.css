@@ -16,6 +16,23 @@ body {
     height: 100%;
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 15px 0;
+}
+
+.icons img {
+    width: 30px;
+    margin: 5px;
+    background-color: #ffffff; 
+    border-radius: 5px; 
+    padding: 5px;
+}
+
 .avatar {
     border-radius: 50%;
     width: 150px;
