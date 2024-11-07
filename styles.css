@@ -7,7 +7,7 @@ body {
 }
 
 .sidebar {
-    width: 250px;
+    width: 270px; /* Increased width for sidebar */
     background-color: #723D46; /* Sidebar color */
     color: #C9CBA3; /* Sidebar text */
     padding: 20px;
@@ -52,7 +52,7 @@ nav ul li a:focus {
 }
 
 .main-content {
-    margin-left: 270px; /* Increases the space to ensure content isn't covered by the sidebar */
+    margin-left: 290px; /* Ensure this matches or exceeds the sidebar width */
     padding: 20px;
     flex: 1;
 }
