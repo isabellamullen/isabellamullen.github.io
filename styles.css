@@ -57,7 +57,7 @@ nav ul li a:focus {
 
 .main-content {
     margin-left: 290px; /* Ensure main content is offset enough from the sidebar */
-    padding: 40px; /* Adjusts padding for readability */
+    padding: 60px; /* Adjusts padding for readability */
     flex: 1;
 }
 
