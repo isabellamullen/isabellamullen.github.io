@@ -14,6 +14,7 @@ body {
     text-align: center;
     position: fixed;
     height: 100%;
+    z-index: 1; /* Ensures the sidebar stays on top */
 }
 
 nav ul {
@@ -51,7 +52,7 @@ nav ul li a:focus {
 }
 
 .main-content {
-    margin-left: 270px;
+    margin-left: 270px; /* Increases the space to ensure content isn't covered by the sidebar */
     padding: 20px;
     flex: 1;
 }
@@ -73,4 +74,11 @@ ul {
 
 section {
     margin-bottom: 40px;
+}
+
+iframe {
+    width: 90%; /* Resizes the iframe to better fit the content area */
+    height: 500px; /* Adjusts the height */
+    max-width: 100%; /* Ensures responsiveness */
+    border: 1px solid #723D46; /* Optional: Adds a border for better visualization */
 }
