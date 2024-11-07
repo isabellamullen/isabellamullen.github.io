@@ -7,14 +7,18 @@ body {
 }
 
 .sidebar {
-    width: 270px; /* Increased width for sidebar */
+    width: 270px; /* Width of sidebar */
     background-color: #723D46; /* Sidebar color */
     color: #C9CBA3; /* Sidebar text */
     padding: 20px;
     text-align: center;
     position: fixed;
-    height: 100%;
-    z-index: 1; /* Ensures the sidebar stays on top */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    overflow-y: auto;
+    z-index: 1; /* Keeps sidebar on top */
 }
 
 nav ul {
@@ -52,8 +56,8 @@ nav ul li a:focus {
 }
 
 .main-content {
-    margin-left: 290px; /* Ensure this matches or exceeds the sidebar width */
-    padding: 20px;
+    margin-left: 290px; /* Ensure main content is offset enough from the sidebar */
+    padding: 40px; /* Adjusts padding for readability */
     flex: 1;
 }
 
@@ -76,9 +80,8 @@ section {
     margin-bottom: 40px;
 }
 
-iframe {
-    width: 90%; /* Resizes the iframe to better fit the content area */
-    height: 500px; /* Adjusts the height */
-    max-width: 100%; /* Ensures responsiveness */
-    border: 1px solid #723D46; /* Optional: Adds a border for better visualization */
+.resume-frame {
+    width: 100%; /* Ensures iframe fits within content area */
+    height: 400px; /* Adjusted height for better viewing */
+    border: 1px solid #723D46; /* Border color to match sidebar */
 }
